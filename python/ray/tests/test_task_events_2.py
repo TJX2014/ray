@@ -54,6 +54,7 @@ class ActorInitFailed:
 
 
 def test_actor_creation_task_ok(shutdown_only):
+    assert False
     ray.init(_system_config=_SYSTEM_CONFIG)
     a = ActorOk.remote()
     ray.get(a.ready.remote())

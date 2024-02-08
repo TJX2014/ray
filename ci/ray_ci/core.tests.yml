@@ -8,4 +8,3 @@ flaky_tests:
   - windows://python/ray/tests:test_placement_group_3
   - windows://python/ray/tests:test_reference_counting_2 
   - windows://python/ray/tests:test_runtime_env_working_dir_3
-  - windows://python/ray/tests:test_task_events_2
